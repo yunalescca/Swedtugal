@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68B9AEAE"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0A090C"
+        android:label="@string/headline"
+        android:layout_marginBottom="30dp"
+        android:elevation="10dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:text="@string/app_name"
+            android:textColor="#F0EDEE"
+            android:textSize="36sp"
+            app:fontFamily="@font/open_sans_light" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <Button
+                android:id="@+id/calibratingButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/calibrate_button"
+                android:onClick="calibrate"
+                android:text="@string/calibrateButton"
+                android:textSize="36sp"
+                app:fontFamily="@font/open_sans_light"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <Button
+                android:id="@+id/positionButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/locate_me_button"
+                android:onClick="locateMe"
+                android:text="@string/positionButton"
+                android:textSize="36sp"
+                app:fontFamily="@font/open_sans_light"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <Button
+                android:id="@+id/creditButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/credits_button"
+                android:onClick="credits"
+                android:text="@string/creditsButton"
+                android:textSize="36sp"
+                app:fontFamily="@font/open_sans_light"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

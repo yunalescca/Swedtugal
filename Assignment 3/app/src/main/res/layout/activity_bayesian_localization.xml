@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:srcCompat="@drawable/position_background">
+
+    <ImageView
+        android:id="@+id/floorPlan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:color/white" />
+
+    <Button
+        android:id="@+id/bayesianLocateMe"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/button_default_style"
+        android:elevation="40dp"
+        android:onClick="onClick"
+        android:text="@string/locate_me"
+        app:fontFamily="@font/open_sans_light" />
+
+    <TextView
+        android:id="@+id/moreLikely"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_toEndOf="@+id/bayesianLocateMe"
+        android:layout_toRightOf="@+id/bayesianLocateMe"
+        android:text="Cell more likely:"
+        android:textSize="14sp"
+        app:fontFamily="@font/open_sans_light" />
+
+    <TextView
+        android:id="@+id/lessLikely"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_toStartOf="@+id/bayesianLocateMe"
+        android:layout_toLeftOf="@+id/bayesianLocateMe"
+        android:text="Cell less likely:"
+        android:textSize="14sp"
+        app:fontFamily="@font/open_sans_light" />
+
+    <TextView
+        android:id="@+id/cellLessLikely"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:textSize="12sp"
+        app:fontFamily="@font/open_sans_light" />
+
+    <TextView
+        android:id="@+id/cellMoreLikely"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="431dp"
+        android:layout_marginLeft="431dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="-138dp"
+        android:layout_marginRight="-138dp"
+        android:textSize="12sp"
+        app:fontFamily="@font/open_sans_light" />
+
+    <TextView
+        android:id="@+id/cellPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:textSize="18sp"
+        app:fontFamily="@font/open_sans_light" />
+
+</RelativeLayout>

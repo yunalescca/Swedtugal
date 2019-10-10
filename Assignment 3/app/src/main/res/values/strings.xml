@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Swedtugal</string>
+
+    <string name="accelerometer_headline">Accelerometer</string>
+    <string name="status">Status</string>
+    <string name="radio_still">Still</string>
+    <string name="radio_walking">Walking</string>
+    <string name="radio_running">Running</string>
+    <string name="hint">Sample number</string>
+    <string name="record_acc">Record accelerometer data</string>
+
+    <string name="wifi_headline">WiFi</string>
+    <string name="save_wifi_button">Save WiFi</string>
+    <string name="cell_name_text">Cell name</string>
+    <string name="sample_number_text">Sample number</string>
+
+    <string name="locate_me">Locate Me!</string>
+
+    <string name="calibrate_headline">Calibrate</string>
+    <string name="save_wifi_data_button">Safe WiFi Data</string>
+    <string name="save_acc_data_button">Save Accelerometer Data</string>
+
+    <string name="main_headline">Swedtugal</string>
+    <string name="calibrate_button">Calibrate</string>
+    <string name="bayesian_button">Bayesian Localization</string>
+    <string name="particle_button">Particle Filter Localization</string>
+
+    <string name="in_cell_1">You are in cell 1!</string>
+    <string name="in_cell_2">You are in cell 2!</string>
+    <string name="in_cell_3">You are in cell 3!</string>
+    <string name="in_cell_4">You are in cell 4!</string>
+    <string name="in_cell_5">You are in cell 5!</string>
+    <string name="in_cell_6">You are in cell 6!</string>
+    <string name="in_cell_7">You are in cell 7!</string>
+    <string name="in_cell_8">You are in cell 8!</string>
+    <string name="in_cell_9">You are in cell 9!</string>
+    <string name="in_cell_10">You are in cell 10!</string>
+    <string name="in_cell_11">You are in cell 11!</string>
+    <string name="in_cell_12">You are in cell 12!</string>
+    <string name="in_cell_13">You are in cell 13!</string>
+    <string name="in_cell_14">You are in cell 14!</string>
+    <string name="in_cell_15">You are in cell 15!</string>
+    <string name="in_cell_16">You are in cell 16!</string>
+    <string name="in_cell_default">You don\'t exist!</string>
+    <string name="locationLoading">Locating…</string>
+
+    <string name="initial_belief">Initial belief</string>
+    <string name="stride_length">Stride length: </string>
+</resources>

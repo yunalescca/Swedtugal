@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Swedtugal</string>
+    <string name="headline">Swedtugal</string>
+    <string name="calibrateButton">Calibrate</string>
+    <string name="positionButton">Locate me</string>
+
+    <string name="save_wifi_button">Save WiFi</string>
+    <string name="cell_name_text">Cell name</string>
+    <string name="sample_number_text">Sample number</string>
+
+    <string name="textA">Cell A</string>
+    <string name="textB">Cell B</string>
+    <string name="textC">Cell C</string>
+    <string name="textD">Cell D</string>
+    <string name="still_walking">Still / Walking</string>
+    <string name="position_locate_me">Locate me!</string>
+
+    <string name="creditsButton">Credits</string>
+    <string name="creditsText">Credits</string>
+    <string name="credit_standing">Standing man icon made by Freepik from www.flaticon.com </string>
+    <string name="credit_walking">Walking man icon made by Scott de Jonge from www.flaticon.com</string>
+    <string name="credit_running">Running man icon made by Freepik from www.flaticon.com</string>
+</resources>
